@@ -1,0 +1,17 @@
+4
+3
+5 A K K Q Q
+5 A Q J J 9
+5 K 9 9 J 8
+3
+5 A K 8 8 6
+7 A 3 Q 5 9 K J
+7 A 5 Q 4 7 2 3
+3
+5 A K 8 8 6
+7 A 3 Q 5 9 K J
+7 A 5 Q 4 7 2 3
+3
+3 A K Q
+4 A 3 Q 4
+3 A 5 Q 
