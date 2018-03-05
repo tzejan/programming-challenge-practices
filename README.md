@@ -6,3 +6,5 @@ They are in no way organized ( I will try to do that if time permits ), and they
 
 Some of my other solutions were not listed here because they could be completed in a few lines on the platform without debugging on my machine, hence I had no record of those solutions.
 
+HackerRank Profile https://www.hackerrank.com/tzejan  
+HackerEarth Profile https://www.codewars.com/users/tzejan
