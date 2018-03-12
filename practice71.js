@@ -4,10 +4,7 @@
 
 function getMiddle(s)
 {
-  let halfLength = Math.floor(s.length / 2);
-  let startingIndex = halfLength;
-  if (s.length % 2 === 0){
-    startingIndex -= 1;
-  }
+  const halfLength = Math.floor(s.length / 2);
+  const startingIndex = s.length % 2 ? halfLength : halfLength - 1;
   return s.slice(startingIndex, halfLength+1); 
 }
