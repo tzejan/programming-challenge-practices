@@ -14,3 +14,18 @@ console.log(find_most_frequent([1, 1, 2, 2, 3]));
 // Test.assert_equals(find_most_frequent([1, 1, 2, 3]), set([1]), 'one most frequent element')
 // Test.assert_equals(find_most_frequent([1, 1, 2, 2, 3]), set([1, 2]), 'two most frequent element')
 // Test.assert_equals(find_most_frequent([]), set([]), 'empty')
+
+// Python solution
+def find_most_frequent(l):
+    if not l:
+        return set(l)
+    histo = {}
+    for val in l:
+        if (val not in histo):
+            histo[val] = 0
+        histo[val] += 1
+
+    highest = max(histo.values())
+    result = filter(lambda key: histo[key] == highest, histo.keys())
+    return set(result)
+
